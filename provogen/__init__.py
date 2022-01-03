@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import (Flask, render_template)
 import os
 
 def create_app(test_config=None):
@@ -24,6 +24,6 @@ def create_app(test_config=None):
 
     @app.route('/')
     def provogen():
-        return "provo"
+        return render_template('provogen.j2')
 
     return app

@@ -1,0 +1,11 @@
+<!doctype html>
+<title>Hello from Flask</title>
+<form id='flagpicker'>
+  <input id='placename' name='placename' type=text><br>
+</form>
+<div id='colorbox' style='padding: 2%; clear:both'>
+</div>
+<script>
+  $URL= {{request.script_root|tojson}}
+</script>
+<script src="{{url_for('static', filename='scripts/colourhandling.js')}}" defer></script>
