@@ -1,7 +1,7 @@
 <!doctype html>
 <title>Hello from Flask</title>
 <form id='flagpicker'>
-  <input id='placename' name='placename' type=text><br>
+  <input id='placename' name='placename' type=text placeholder='Provo'><br>
 </form>
 <div id='colorbox' style='padding: 2%; clear:both'>
 </div>
@@ -9,3 +9,7 @@
   $URL= {{request.script_root|tojson}}
 </script>
 <script src="{{url_for('static', filename='scripts/colorhandling.js')}}" defer></script>
+<script defer>
+    var input = document.getElementById('placename');
+    input.focus();
+</script>
