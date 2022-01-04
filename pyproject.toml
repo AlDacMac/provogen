@@ -8,7 +8,7 @@ license = "MIT License"
 [tool.poetry.dependencies]
 python = "^3.9"
 Flask = "^2.0.2"
-flaggart = "^0.3.0"
+flaggart = "^0.4.0"
 Wand = "^0.6.7"
 Pillow = "^8.3.2"
 
