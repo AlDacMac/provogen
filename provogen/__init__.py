@@ -35,7 +35,7 @@ def create_app(test_config=None):
         return render_template('provogen.j2')
 
     @app.route('/flag-color', methods=['GET'])
-    def flagColour():
+    def flagColor():
         print('test')
         placename = request.args.get('placename')
         print(placename)
