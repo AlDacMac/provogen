@@ -10,51 +10,34 @@ body{
 
 .fullflag{
     float: left;
-    display: block;
     height: min(100vh, 50vw);
     width: min(200vh, 100vw);
-    border-style: hidden;
+    border-style: solid;
     box-sizing: border-box;
-    padding-top: min(20vh, 10vw);
     font-size: min(30vh, 15vw);
+    padding-top: 15%;
 }
 
 .flagtitle{
-    height: 35%;
-    width: 95%;
-    padding-bottom: 0.45em;
-    display:block;
-    position:relative;
-    transform: rotate(-12deg) skew(-5deg);
+    width: 50%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
 }
 
 #colorbox{
-    width: 70%;
-    transform: rotate(-12deg) skew(-12deg) translateX(-1.7%);
+    width:60%
 }
 
 .provotext{
-    width: 50%;
-    padding:0;
-    margin-left:28%;
     border:none;
     background: none;
     font-family: Arial Black, Arial, Helvetica, sans-serif;
     font-weight: 900;
-    transform: skew(-5deg);
     text-shadow: -.05em .05em #9A9A9A;
-    display: block;
+    width:100%;
+    padding: 0;
 
-}
-
-.widthspan{
-    width: 65%;
-    padding:0;
-    vertical-align: 100px;
-    margin-left: 15%;
-    transform: skew(-5deg);
-    font-family: Arial Black, Arial, Helvetica, sans-serif;
-    font-weight: 900;
 }
 
 .provotext:focus{
