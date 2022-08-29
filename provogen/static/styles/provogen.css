@@ -1,6 +1,11 @@
 body{
     width:auto;
     height:100vh;
+    overflow:hidden;
+}
+
+:root{
+    font-size: min(30vh, 15vw);
 }
 
 .fullflag{
@@ -8,7 +13,7 @@ body{
     display: block;
     height: min(100vh, 50vw);
     width: min(200vh, 100vw);
-    border-style: solid;
+    border-style: hidden;
     box-sizing: border-box;
     padding-top: min(20vh, 10vw);
     font-size: min(30vh, 15vw);
@@ -16,27 +21,37 @@ body{
 
 .flagtitle{
     height: 35%;
-    margin-bottom: 0.45em;
+    width: 95%;
+    padding-bottom: 0.45em;
+    display:block;
+    position:relative;
+    transform: rotate(-12deg) skew(-5deg);
+}
+
+#colorbox{
+    width: 70%;
+    transform: rotate(-12deg) skew(-12deg) translateX(-1.7%);
 }
 
 .provotext{
-    width: 65%;
+    width: 50%;
     padding:0;
-    vertical-align: 100px;
-    margin-left:15%;
+    margin-left:28%;
     border:none;
     background: none;
     font-family: Arial Black, Arial, Helvetica, sans-serif;
     font-weight: 900;
     transform: skew(-5deg);
-    text-shadow: -.03em .03em #9A9A9A;
+    text-shadow: -.05em .05em #9A9A9A;
+    display: block;
+
 }
 
 .widthspan{
     width: 65%;
     padding:0;
     vertical-align: 100px;
-    margin-left:15%;
+    margin-left: 15%;
     transform: skew(-5deg);
     font-family: Arial Black, Arial, Helvetica, sans-serif;
     font-weight: 900;
