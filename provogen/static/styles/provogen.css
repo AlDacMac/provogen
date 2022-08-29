@@ -12,21 +12,25 @@ body{
     float: left;
     height: min(100vh, 50vw);
     width: min(200vh, 100vw);
-    border-style: solid;
+    border-style: hidden;
     box-sizing: border-box;
     font-size: min(30vh, 15vw);
     padding-top: 15%;
+    display:flex;
+    flex-direction: column;
 }
 
 .flagtitle{
-    width: 50%;
-    height: 40%;
     display: flex;
+    height: 40%;
     align-items: flex-end;
+    transform: skew(-7deg) rotate(-12deg);
 }
 
 #colorbox{
-    width:60%
+    margin-top: 2.3%;
+    width:70%;
+    transform: skew(-12deg) rotate(-12deg);
 }
 
 .provotext{
@@ -35,9 +39,9 @@ body{
     font-family: Arial Black, Arial, Helvetica, sans-serif;
     font-weight: 900;
     text-shadow: -.05em .05em #9A9A9A;
-    width:100%;
+    width: 50%;
     padding: 0;
-
+    margin-left: 28%;
 }
 
 .provotext:focus{
