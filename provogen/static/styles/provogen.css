@@ -28,7 +28,7 @@ body{
 }
 
 #colorbox{
-    margin-top: 2.3%;
+    margin-top: 2.5%;
     width:70%;
     transform: skew(-12deg) rotate(-12deg);
 }
@@ -39,7 +39,7 @@ body{
     font-family: Arial Black, Arial, Helvetica, sans-serif;
     font-weight: 900;
     text-shadow: -.05em .05em #9A9A9A;
-    width: 50%;
+    width: 47%;
     padding: 0;
     margin-left: 28%;
 }
